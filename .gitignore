@@ -1,0 +1,29 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_ed25519
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+*.log
+
+# Credentials and local shell history
+.ssh/
+.bash_history
+.zsh_history
+.history
+
+# Local configuration and backups
+*.swp
+*.bak
+*~
+.DS_Store
+
+# Private lab data
+captures/
+private/
